@@ -1,46 +1,37 @@
-# Getting Started with Create React App
+# Todo CRUD App (Front End)
+This is a simple Todo App that allows users to create, update, and delete tasks.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Getting Started
 
-## Available Scripts
+Prerequisites
+To run the application, you will need to have the following installed on your machine:
 
-In the project directory, you can run:
+* Node.js (v14 or later)
+* Yarn package manager
 
-### `npm start`
+## Installing
+To install the application, clone the repository and run the following command:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+`yarn install`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Running the Application
+To run the application, run the following command:
 
-### `npm test`
+`yarn start`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This will start the development server at http://localhost:3000.
 
-### `npm run build`
+## Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Creating a Todo
+Add a title and description to the form and click the "Add" button to create a new Todo.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Updating a Todo
+In the Todo card, click on the "Edit" button to edit the Todo. Once you are done editing, click on the "Save" button to save the changes.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Completing a Todo
+To mark a Todo as completed, click on the checkbox on the left side of the Todo card.
 
-### `npm run eject`
+### Deleting a Todo
+To delete a Todo, click on the "Delete" button on the bottom left of the Todo card.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
