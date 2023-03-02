@@ -6,13 +6,7 @@ import {
   CardContent,
   makeStyles,
 } from "@material-ui/core";
-import { Todo } from "../api";
-
-interface EditTodoCardProps {
-  todo: Todo;
-  onSave: (updatedFields: Partial<Todo>) => void;
-  onCancel: () => void;
-}
+import { EditTodoCardProps } from "../types/EditTodoCardProps";
 
 const useStyles = makeStyles((theme) => ({
   card: {

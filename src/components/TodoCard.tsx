@@ -7,15 +7,8 @@ import {
   Typography,
 } from "@material-ui/core";
 import { CheckCircle, Delete, Edit } from "@material-ui/icons";
-import { Todo } from "../api";
 import EditTodoCard from "./EditTodoCard";
-
-interface TodoCardProps {
-  todo: Todo;
-  onUpdateTodo: (id: number, updatedFields: Partial<Todo>) => void;
-  onDeleteTodo: (id: number) => void;
-  onEditTodo: (todo: Todo) => void;
-}
+import { TodoCardProps } from "../types/ToDoCardProps";
 
 export function TodoCard({
   todo,
